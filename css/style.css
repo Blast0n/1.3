@@ -40,7 +40,7 @@ html{
 .header{
 	margin: 0 auto;
 }
-.nav {
+.header-nav {
 	display: flex;
 	justify-content: space-between;
 	height:88px ;
@@ -109,7 +109,7 @@ html{
 }
 
 	
-.main__title {
+.services__title {
 	color: #1B1C21;
 	font-family: TT Lakes Bold;
 	font-size: 28px;
@@ -175,12 +175,10 @@ html{
 	margin-top:24px;
 
 }
-.main__about {
+
+.content__about {
 	width: 288px;
 	margin-left: 16px;
-}
-
-.main__about {
 	color: #1B1C21;
 	font-family: TT Lakes Regular;
 	font-size: 14px;
@@ -190,12 +188,12 @@ html{
 	letter-spacing: 0.2px;
 }
 
-.main__text--hidden{
+.content__text--hidden{
 	display: none;
 	margin-top: 20px;
 }
 
-.main__text--hidden1120 {
+.content__text--hidden1120 {
 	display: none;
 	margin-top: 20px;
 }
@@ -234,14 +232,14 @@ html{
 	line-height: 24px; /* 150% */
 	letter-spacing: -0.2px;	
 }
-.main__btn-next {
+.content__btn-next {
 	display: flex;
 	margin-top: 16px;
 	margin-bottom: 16px;
 
 }
 
-.main__next {
+.content__next {
 	color: #1B1C21;
 	font-family: TT Lakes Medium;
 	font-size: 16px;
@@ -252,7 +250,7 @@ html{
 }
 .main__img {
 	display: block;
-	width: 320px;
+	width: 100%;
 	margin-bottom: 50px;
 }
 @media(min-width:768px) {
@@ -281,10 +279,10 @@ html{
 		padding-left: 0px;
 	}	
 
-	.main__about{
+	.content__about{
 		width: 312px;
 	}
-	.main__text--hidden{
+	.content__text--hidden{
 		display: block;
 	}
 	.main__img {
@@ -307,7 +305,7 @@ html{
 	padding-top: 42px;
 	}
 
-	.main__title{
+	.services__title{
 		margin-left: 32px;
 	}
 
@@ -323,11 +321,11 @@ html{
 		margin-left: 34px;
 	}
 
-	.main__about{
+	.content__about{
 		margin-left: 34px;
 	}
 
-	.main__about {
+	.content__about {
 		width: 490px;
 	}
 	.main__img {
@@ -336,11 +334,11 @@ html{
 		margin-right: 28px;
 	}
 
-	.main__text--hidden1120 {
+	.content__text--hidden1120 {
 		display: block;
 	}
 
-	.main__text--hidden {
+	.content__text--hidden {
 		display: none;
 	}
 }	
